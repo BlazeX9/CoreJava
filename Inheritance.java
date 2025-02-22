@@ -48,7 +48,7 @@ class parentClass extends grandClass{
 }
 class classChild extends parentClass{
 	void show(){
-		System.out.print("U "+y);
+		System.out.print("Result "+y);
 	}
 }
 
