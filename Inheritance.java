@@ -1,4 +1,6 @@
-//1. Simple Inheritance  [P] --> [C]
+1. Simple Inheritance | [P] --> [C]
+-----------------------------------
+
 import java.util.Scanner;
 class classParent{
 	String n,c;
@@ -20,6 +22,7 @@ class classChild extends classParent{
 		System.out.print("User "+n+" has selected course "+c+" and his roll number is "+r);
 	}
 }
+
 class MyClass{
 	public static void main(String[] args){
 		classChild obj = new classChild();
@@ -28,7 +31,9 @@ class MyClass{
 	}
 }
 
-//2. Multilevel Inheritance  [GP] --> [P] --> [C]
+2. Multilevel Inheritance | [GP] --> [P] --> [C]
+------------------------------------------------
+
 class grandClass{
 	int x;
 	void value(int a){
@@ -46,11 +51,54 @@ class classChild extends parentClass{
 		System.out.print("U "+y);
 	}
 }
+
 class MyClass{
 	public static void main(String[] args){
 		classChild obj = new classChild();
 		obj.value(5);
 		obj.newvalue();
 		obj.show();
+	}
+}
+
+3. Hierarchical Inheritance | [P] --> [C1] + [P] --> [C2]
+---------------------------------------------------------
+
+class parentClass{
+	int y;
+	void value(){
+		y=10;
+	}
+}
+class classChildOne extends parentClass{
+	int x;
+	void newvalue(int a){
+		x=a+y;
+	}
+	void show(){
+		System.out.println("Updated Child Class Value "+x);
+	}
+}
+class classChildTwo extends parentClass{
+	int x;
+	void newvalue(int a){
+		x=a+y;
+	}
+	void show(){
+		System.out.println("Updated Child Class Value "+x);
+	}
+}
+
+class MyClass{
+	public static void main(String[] args){
+		classChildOne obj1 = new classChildOne();
+		obj1.value();
+		obj1.newvalue(3);
+		obj1.show();
+		
+		classChildTwo obj2 = new classChildTwo();
+		obj2.value();
+		obj2.newvalue(7);
+		obj2.show();
 	}
 }
