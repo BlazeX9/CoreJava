@@ -31,8 +31,7 @@ class MyClass{
 //2. Multilevel Inheritance  [GP] --> [P] --> [C]
 class grandClass{
 	int x;
-	void value(int a)
-	{
+	void value(int a){
 		x=a;
 	}
 }
