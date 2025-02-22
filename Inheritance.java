@@ -1,21 +1,9 @@
 //1. Simple Inheritance  [P] --> [C]
 import java.util.Scanner;
-class MyClass
-{
-	public static void main(String[] args)
-	{
-		classChild obj = new classChild();
-		obj.input();
-		obj.show();
-	}
-}
-
-class classParent
-{
+class classParent{
 	String n,c;
 	int r;
-	void input()
-	{
+	void input(){
 	Scanner MyScn1 = new Scanner(System.in);
 	System.out.print("Enter name ");
 	n = MyScn1.nextLine();
@@ -27,49 +15,43 @@ class classParent
 	r = MyScn2.nextInt();
 	}
 }
-
-class classChild extends classParent
-{
-	void show()
-	{
+class classChild extends classParent{
+	void show(){
 		System.out.print("User "+n+" has selected course "+c+" and his roll number is "+r);
 	}
 }
-
-//2. Multilevel Inheritance  [GP] --> [P] --> [C]
-class MyClass
-{
-	public static void main(String[] args)
-	{
+class MyClass{
+	public static void main(String[] args){
 		classChild obj = new classChild();
-		obj.value(5);
-		obj.newvalue();
+		obj.input();
 		obj.show();
 	}
 }
 
-class grandClass
-{
+//2. Multilevel Inheritance  [GP] --> [P] --> [C]
+class grandClass{
 	int x;
 	void value(int a)
 	{
 		x=a;
 	}
 }
-
-class parentClass extends grandClass
-{
+class parentClass extends grandClass{
 	int y;
-	void newvalue()
-	{
+	void newvalue(){
 		y=x+5;
 	}
 }
-
-class classChild extends parentClass
-{
-	void show()
-	{
+class classChild extends parentClass{
+	void show(){
 		System.out.print("U "+y);
+	}
+}
+class MyClass{
+	public static void main(String[] args){
+		classChild obj = new classChild();
+		obj.value(5);
+		obj.newvalue();
+		obj.show();
 	}
 }
