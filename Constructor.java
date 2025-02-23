@@ -2,7 +2,6 @@ A constructor is a special method that is used to initialize objects.
 
 Default Constructor
 -------------------
-
 class MyClass{
 	public static void main(String[] args){
 		addition obj = new addition();
@@ -28,10 +27,8 @@ class addition{
 	}
 }
 
-
 Parameterized Constructor
 -------------------------
-
 class MyClass{
 	public static void main(String[] args){
 		Time objone = new Time(10,20,30);
@@ -65,10 +62,8 @@ class Time{
 	}
 }
 
-
 Copy Constructor
 ----------------
-
 class MyClass{
 	public static void main(String[] args){
 		ClassA obj = new ClassA(10);
