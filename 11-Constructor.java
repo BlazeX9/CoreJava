@@ -2,6 +2,7 @@ A constructor is a special method that is used to initialize objects.
 
 Default Constructor
 -------------------
+import java.util.Scanner;
 class MyClass{
 	public static void main(String[] args){
 		addition obj = new addition();
