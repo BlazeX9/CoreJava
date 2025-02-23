@@ -1,6 +1,5 @@
 1. Simple Inheritance | [P] --> [C]
 -----------------------------------
-
 import java.util.Scanner;
 class classParent{
 	String n,c;
@@ -33,7 +32,6 @@ class MyClass{
 
 2. Multilevel Inheritance | [GP] --> [P] --> [C]
 ------------------------------------------------
-
 class grandClass{
 	int x;
 	void value(int a){
@@ -63,7 +61,6 @@ class MyClass{
 
 3. Hierarchical Inheritance | [P] --> [C1] + [P] --> [C2]
 ---------------------------------------------------------
-
 class parentClass{
 	int y;
 	void value(){
