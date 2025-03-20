@@ -1,5 +1,5 @@
 A constructor is a special method that is used to initialize objects. 
-In constructor class name and the function name is same and no return type is required for the default function.
+In constructor we create a function under the class, which name is same as class name without need of declaring any return type.
 
 Default Constructor
 -------------------
