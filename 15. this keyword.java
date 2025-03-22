@@ -1,6 +1,5 @@
-1. Variable
------------
-
+1. this keyword in Variable
+---------------------------
 import java.util.Scanner;
 class MyClass
 {
@@ -48,8 +47,8 @@ class Student
 	}
 }
 
-2. Method
----------
+2. this keyword in Method
+-------------------------
 class MyClass
 {
 	public static void main(String[] args)
@@ -72,48 +71,38 @@ class NewClass
 	}
 }
 
-3. Constructor
---------------
-#Example 1
-	
+3. this keyword in Constructor
+------------------------------
 class MyClass
 {
 	public static void main(String[] args)
 	{
-	 NewClass obj=new NewClass(25);
+	 NewClass1 obj1=new NewClass1(25);
+	 NewClass2 obj2=new NewClass2();
 	}
 }
 
-class NewClass
+class NewClass1
 {
-	NewClass(int a)
+	NewClass1(int a)
 	{
 	 this();
 	 System.out.println("Value "+a);
 	}
-	NewClass()
+	NewClass1()
 	{
 	 System.out.println("Red");
 	}
 }
 
-#Example 2
-class MyClass
+class NewClass2
 {
-	public static void main(String[] args)
+	NewClass2()
 	{
-	 NewClass obj=new NewClass();
+	 this(50);
+	 System.out.println("Green");
 	}
-}
-
-class NewClass
-{
-	NewClass()
-	{
-	 this(30);
-	 System.out.println("Red");
-	}
-	NewClass(int a)
+	NewClass2(int a)
 	{
 	 System.out.println("Value "+a);
 	}
