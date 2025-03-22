@@ -1,3 +1,5 @@
+Note: super keyword is used in inheritance to access the value of a parent class in a child class where both having function name.
+
 1. super keyword in variable
 ----------------------------
 class MyClass
@@ -43,7 +45,7 @@ class MyClass
 	public static void main(String[] args)
 	{
 	 ClassC obj=new ClassC();
-     obj.show();
+         obj.show();
 	}
 }
 
