@@ -1,3 +1,5 @@
+Note: this keyword is used to assign the value of a local variable to a global variable when both have the same name. It is also used to call other functions from another function or from a constructor.
+
 1. this keyword in Variable
 ---------------------------
 import java.util.Scanner;
