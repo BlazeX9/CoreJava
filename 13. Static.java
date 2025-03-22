@@ -1,6 +1,6 @@
 1. Static Variable
 ------------------
-//-Example 1-
+//Example 1
 class MyClass
 {
 	public static void main(String[] args)
@@ -36,14 +36,14 @@ class NewClass
 }
 
 Without Static Output is: a = 1
-						  a = 1
-						  a = 1
-						  
+			  a = 1
+			  a = 1
+
 With Static Output is:    a = 1
-					      a = 2
-					      a = 3
+			  a = 2
+			  a = 3
 
-//-Example 2-
+//Example 2
 class MyClass
 {
 	public static void main(String[] args)
@@ -80,14 +80,14 @@ class NewClass
 }
 
 Without Static Output is: a = 1
-						  a = 1
-						  a = 1
-						  
-With Static Output is:    a = 3
-					      a = 3
-					      a = 3
+			  a = 1
+			  a = 1
 
-//-Example 3-
+With Static Output is:    a = 3
+			  a = 3
+			  a = 3
+
+//Example 3
 class MyClass
 {
 	public static void main(String[] args)
@@ -124,14 +124,14 @@ class NewClass
 }
 
 Without Static Output is: a = 1 & b = 0
-   						  a = 1 & b = 0
-						  a = 1 & b = 0
+   			  a = 1 & b = 0
+			  a = 1 & b = 0
 
 With Static Output is:    a = 1 & b = 0
-   					      a = 2 & b = 1
-					      a = 3 & b = 2
+   			  a = 2 & b = 1
+			  a = 3 & b = 2
 
-//-Example 4-
+//Example 4
 class MyClass
 {
 	public static void main(String[] args)
@@ -147,7 +147,7 @@ class MyClass
 	 System.out.println("value of a "+NewClass.a+" value of b "+ob1.b);
 	 System.out.println("value of a "+NewClass.a+" value of b "+ob2.b);
 	 System.out.println("value of a "+NewClass.a+" value of b "+ob3.b);
-	 //Note: Static variable is called using class name & non static variable is called using object
+	 //[Note: Static variable is called using class name & non static variable is called using object]
 	}
 }
 
@@ -166,12 +166,12 @@ class NewClass
 }
 
 Without Static Output is: a = 1 & b = 0
-   						  a = 1 & b = 0
-						  a = 1 & b = 0
+   			  a = 1 & b = 0
+			  a = 1 & b = 0
 
 With Static Output is:    a = 3 & b = 0
-   					      a = 3 & b = 1
-					      a = 3 & b = 2
+   			  a = 3 & b = 1
+			  a = 3 & b = 2
 
 
 2. Static Method
@@ -202,7 +202,7 @@ class NewClass
 	}
 	static void view()
 	{
-	 System.out.println("value of a "+a);      [Note: Non-Static variable can't be used inside a static function]
+	 System.out.println("value of a "+a);      //[Note: Non-Static variable can't be used inside a static function]
 	}
 }
 
@@ -213,9 +213,9 @@ class MyClass
 {
 	static
 	{
-	 System.out.println("One"); 		[Note: main class static block executes at first]
+	 System.out.println("One"); 		//[Note: main class static block executes at first]
 	}
-	public static void main(String[] args){
+	 public static void main(String[] args){
 	 NewClass obj=new NewClass();
 	 obj.show();
 	}
@@ -229,6 +229,6 @@ class NewClass
 	}
 	static
 	{
-	 System.out.println("Two");		[Note: subclass static block executes at second]
+	 System.out.println("Two");		//[Note: subclass static block executes at second]
 	}
 }
