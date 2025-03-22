@@ -74,6 +74,8 @@ class NewClass
 
 3. Constructor
 --------------
+#Example 1
+	
 class MyClass
 {
 	public static void main(String[] args)
@@ -95,8 +97,7 @@ class NewClass
 	}
 }
 
-
-
+#Example 2
 class MyClass
 {
 	public static void main(String[] args)
