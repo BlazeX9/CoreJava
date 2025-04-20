@@ -1,3 +1,10 @@
+[Notes]
+\t    --> space
+\n    --> next line
+\' \' --> ' '
+\" \" --> " "
+
+
 class MyClass
 {
  public static void main(String[] args)
@@ -10,11 +17,3 @@ class MyClass
   System.out.println("6)Name\tRoll\tCourse\tMarks\tGrade\nRam\t1\tC\t90\tAA\nShyam\t2\tc++\t80\tA+");
  }
 }
-
-
-
-[Notes]
-\t    --> space
-\n    --> next line
-\' \' --> ' '
-\" \" --> " "
