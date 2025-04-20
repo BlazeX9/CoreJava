@@ -9,7 +9,7 @@ class VariableClass
 {
 	public static void main(String[] args)
 	{
-		int i=7;
+		int i=100;
 		System.out.println("Value: "+ i);
 		
 		long l=33333333;
@@ -18,7 +18,7 @@ class VariableClass
 		float f=3.14f;
 		System.out.println("Value: "+ f);
 		
-		double d=98100.00001;
+		double d=100.53;
 		System.out.println("Value: "+ d);
 		
 		char c='A';
