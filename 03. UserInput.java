@@ -34,7 +34,7 @@ public class MyClass {
 	System.out.println("Enter a string");
 	f = MyScnr.nextLine();
 	System.out.println("User Input: "+f);
-        }
+	}
 }
 
 
