@@ -16,3 +16,6 @@ public class MyClass {
 	System.out.println("User's percentage is " + percentage);
 	}
 }
+
+(automatically) byte -> short -> char -> int -> long -> float -> double
+(manually)      double -> float -> long -> int -> char -> short -> byte
