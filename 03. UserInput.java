@@ -34,7 +34,7 @@ public class MyClass {
 	System.out.println("Enter a string");
 	f = MyScnr.nextLine();
 	System.out.println("User Input: "+f);
-     }
+        }
 }
 
 
@@ -67,7 +67,7 @@ public class MyClass {
 		
 	System.out.println("After swap first numer is "+num3);
 	System.out.println("After swap second numer is "+num4);
-     }
+        }
 }
 
 
@@ -87,5 +87,5 @@ public class MyClass {
 	int num = MyScn.nextInt();
 	int srt = (int) Math.sqrt(num);
 	System.out.println("Result is "+srt);
-     }
+        }
 }
