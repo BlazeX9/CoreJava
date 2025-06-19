@@ -71,3 +71,21 @@ public class MyClass {
 }
 
 
+public class MyClass {
+    public static void main(String[] args) {
+	Scanner MyScn = new Scanner(System.in);
+		
+	//Power and square root calculation
+	System.out.println("Enter base value");
+	int base = MyScn.nextInt();
+	System.out.println("Enter power value");
+	int powr = MyScn.nextInt();
+	int res = (int) Math.pow(base, powr);
+	System.out.println("Result is "+res);
+		
+	System.out.println("Enter your number");
+	int num = MyScn.nextInt();
+	int srt = (int) Math.sqrt(num);
+	System.out.println("Result is "+srt);
+     }
+}
