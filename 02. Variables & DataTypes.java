@@ -6,7 +6,7 @@
 5. Variable name is case sensitive
 
 public class MyClass {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
 	int a = 7;
 	System.out.println(a);
@@ -25,5 +25,5 @@ public class MyClass {
 
 	String f = "Java";
 	System.out.println(f);		//Double quotation
-   }
+     }
 }
