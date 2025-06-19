@@ -1,15 +1,19 @@
-class MyClass
-{
- public static void main(String[] args)
- {
-  int num1=5;
-  int num2=6;
-  int num3=7;
-  int sum=num1+num2+num3;
-  float avg=sum/3;            --> Result will be in intiger
-  float avg=(float)sum/3;     --> Result will be in float
-  float avg=sum/(float)3;     --> Result will be in float
-  float avg=sum/3f;           --> Result will be in float
-  System.out.println(avg);
- }
+public class MyClass {
+	   public static void main(String[] args) {
+		
+		int a = 9;
+		double b = a;			//Automatic casting: int to double
+		System.out.println(a);
+		System.out.println(b);
+		
+		double c = 9.78d;
+		int d = (int) c; 		//Manual casting: double to int
+		System.out.println(c);
+		System.out.println(d);
+		
+		int maxScore = 500;
+		int userScore = 423;
+		float percentage = (float) userScore / maxScore * 100.0f;
+		System.out.println("User's percentage is " + percentage);
+	}
 }
