@@ -1,12 +1,12 @@
 public class MyClass {
     public static void main(String[] args) {
 	int a = 9;
-	double b = a;			//Automatic casting: int to double
+	double b = a;			//Implicit
 	System.out.println(a);
 	System.out.println(b);
 		
 	double c = 9.78d;
-	int d = (int) c; 		//Manual casting: double to int
+	int d = (int) c; 		//Explicit
 	System.out.println(c);
 	System.out.println(d);
 		
@@ -17,5 +17,5 @@ public class MyClass {
 	}
 }
 
-(automatically) byte -> short -> char -> int -> long -> float -> double
-(manually)      double -> float -> long -> int -> char -> short -> byte
+(Implicit) byte -> short -> char -> int -> long -> float -> double
+(Explicit) double -> float -> long -> int -> char -> short -> byte
