@@ -32,6 +32,12 @@ Array
 What are literals?
 -   
 
+What is a function or method?
+- A method is a block of code that performs a specific task and can optionally return a result.
+
+What is recursion?
+- Recursion is a programming technique where a method calls itself.
+
 What is constructor?
 - A constructor is a block of code similar to a method but unlike methods constructors have no return type and have the same name as the class itself.  
 
