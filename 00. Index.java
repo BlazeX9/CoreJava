@@ -32,12 +32,12 @@ Array
 What are literals?
 -   
 
-What is a constructor?
+What is constructor?
 - A constructor is a block of code similar to a method but unlike methods constructors have no return type and have the same name as the class itself.  
 
 Method overloading
 - Method overloading is a process that allows a class to have more than one method having the same name
 
-What is a package
+What is package
 - 
   
