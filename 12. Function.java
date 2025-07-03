@@ -1,6 +1,6 @@
+//NRNA---> No Return No Argument
 public class NRNA {
    public static void main(String[] args) {
-	//NRNA--->No Return No Argument
 	NRNA obj = new NRNA();
 	obj.sum();
    }
@@ -12,9 +12,9 @@ public class NRNA {
    }
 }
 
+//NRHA---> No Return Having Argument
 public class NRHA {
    public static void main(String[] args) {
-	//NRHA--->No Return Having Argument
 	NRHA obj = new NRHA();
 	int a = 5;
 	int b = 5;
@@ -27,9 +27,9 @@ public class NRHA {
    }
 }
 
+//HRNA---> Having Return No Argument
 public class HRNA {
    public static void main(String[] args) {
-	//HRNA--->Having Return No Argument
 	HRNA obj = new HRNA();
 	int res = obj.sum();
 	System.out.println("Sum: "+res);
@@ -42,9 +42,9 @@ public class HRNA {
    }
 }
 
+//HRHA---> Having Return Having Argument
 public class HRHA {
    public static void main(String[] args) {
-	//HRHA--->Having Return Having Argument
 	HRHA obj = new HRHA();
 	int a = 3;
 	int b = 5;
