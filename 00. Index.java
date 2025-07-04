@@ -88,9 +88,7 @@ Connection Pooling is a technique that make calls to a database by reusing the c
 
 
 ---Exception Handling---
-Exception handling is a mechanism to handle runtime errors such as ArrayIndexOutOfBoundsException, IOException, ArithmeticException, NullPointerException etc.
-
-try is the start of the block and catch is used to handle the exception.
+Exception handling is a mechanism to handle runtime errors. try is the start of the block and catch is used to handle the exception.
 
 Checked exceptions are checked at compile-time. It means if a method is throwing a checked exception then it should handle the exception using the try-catch block or it should declare the exception using the throws keyword, Ex: IOException, SQLException, etc.
 
