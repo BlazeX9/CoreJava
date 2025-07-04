@@ -30,7 +30,7 @@ Array
     String[] myStringArray = new String[50];
 
 What are literals?
-  -   
+  - a literal is a fixed value that is directly represented in the source code.
 
 What is a function or method?
   - A method is a block of code that performs a specific task and can optionally return a result.
@@ -42,23 +42,25 @@ What is constructor?
   - A constructor is a block of code similar to a method but unlike methods constructors have no return type and have the same name as the class itself.
 
 ---OOPS---
+prevent unauthorized access from other parts of the code
+
 Encapsulation
   - It refers to binding of data and methods into a single unit called a ‘class’, encapsulation helps hiding data from direct access.
-  
+
 Abstraction
-  - Representation of essential features excluding their background details is known as data abstraction.
+  - abstraction is the process of hiding certain details and showing only essential information to the user.
 
 Inheritance
   - inherit existing class properties and methods into a new class.
-  
+
 What is Polymorphism?
-  - Polymorphism is the ability of an object to take multiple forms. In java compile-time polymorphism is achieved with the help of method overloading and run-time polymorphism is achieved with the help of method overriding.
+  - Polymorphism is the ability of an object to take multiple forms. There are two types of polymorphism, method overloading and method overriding.
 
 Method overloading
-  - Method overloading means methods are having the same name but they differ either in the number of arguments or in the type of arguments. It is done during compile time, so it is known as compile-time polymorphism.
+  - Method overloading means methods are having the same name but they differ either in the number of arguments or in the type of arguments. It is done during compile time so it is known as compile-time polymorphism.
 
 Method overriding
-  - 
+  - Method overriding means the ability to define subclass and super-class methods with the same name, here the subclass method will override the super-class method. It is performed during run time so it is known as run-time polymorphism.
 
 
 ---Threading---
