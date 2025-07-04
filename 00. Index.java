@@ -36,13 +36,16 @@ What is a function or method?
 - A method is a block of code that performs a specific task and can optionally return a result.
 
 What is recursion?
-- Recursion is a programming technique where a method calls itself.
+- Recursion is a technique where a method calls itself.
 
 What is constructor?
 - A constructor is a block of code similar to a method but unlike methods constructors have no return type and have the same name as the class itself.  
 
 Method overloading
 - Method overloading is a process that allows a class to have more than one method having the same name
+
+What is Polymorphism?
+-   
 
 What is package
 - 
