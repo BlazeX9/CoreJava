@@ -1,4 +1,4 @@
-//NRNA---> No Return No Argument
+//NRNA---> No Return No Argument 
 public class NRNA {
    public static void main(String[] args) {
 	NRNA obj = new NRNA();
