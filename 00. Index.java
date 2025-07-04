@@ -60,7 +60,16 @@ Method overloading
 Method overriding
   - 
 
-  
+
+---Threading---
+Concurrency is the ability to run several programs or several parts of a program in parallel. It helps to perform many tasks in a shorter period of time.
+
+Multithreading is a Java feature that allows execution of two or more parts of a program for maximum utilization of CPU.
+
+Deadlock is a part of multithreading. It occurs when two or more threads get blocked forever waiting for each other. Deadlock occurs due to improper thread synchronization.
+
+
+
 ---JDBC---
 Java Database Connectivity is an API that enables java programs to execute SQL statements.
 
@@ -71,30 +80,18 @@ Statement vs PreparedStatement
   - Statement: Used to execute a simple SQL query with no parameters.
   - PreparedStatement: Used for executing SQL statements when you need to bind parameters to the query.
 
-ResultSet
-  - ResultSet is a table of data representing a database result set
+ResultSet is a table of data representing a database result set
 
-Class.forName("com.mysql.jdbc.Driver");
-Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/abhik","root","");
-String sql="insert into student values(?)";
-PreparedStatement ps = con.prepareStatement(sql);
-ps.setString(1, "Ashok");
-ps.executeUpdate();
+SQL exception handleing is done by try and catch
+	
+Connection Pooling is a technique that make calls to a database by reusing the connections instead of creating a new one each time to improve performance in applications.
 
-Class.forName("com.mysql.jdbc.Driver");
-Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/abhik","root","");
-String sql = "select * from student";
-PreparedStatement ps = cn.prepareStatement(sql);
-ResultSet rs = ps.executeQuery();
-while(rs.next()) {
-			System.out.println(rs.getString("Name")));
-		}
 
-SQL exception handleing
-  - try {
-    } 
-    catch (SQLException ex) {
-    }
+---Exception Handling---
+Exception handling is a mechanism to handle runtime errors such as ArrayIndexOutOfBoundsException, IOException, ArithmeticException, NullPointerException etc.
 
-Connection Pooling
-  - It a technique that make calls to a database by reusing the connections instead of creating a new one each time to improve performance in applications.
+try is the start of the block and catch is used to handle the exception.
+
+Checked exceptions are checked at compile-time. It means if a method is throwing a checked exception then it should handle the exception using the try-catch block or it should declare the exception using the throws keyword, Ex: IOException, SQLException, etc.
+
+Unchecked exceptions are not checked at compiled time. It means if your program is throwing an unchecked exception, and even if you didn’t handle/declare that exception, the program won’t give a compilation error, Ex: ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
