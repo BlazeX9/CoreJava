@@ -9,22 +9,7 @@ Java is a **platform-independent** programming language because its source code 
 **Wrapper classes** provide a way to use **primitive data types** as **objects**<br><br>
 
 **`System.out`** is used to output the data that we want to display on the  console.
-```java
-System.out.println("Hello, World!");
-```
 **`System.err`** is used to display **error messages** on the console.
-```java
-System.err.println("An error occurred!");
-```
-**`System.in`** is used to read **input from the terminal window**.
-```java
-import java.util.Scanner;
+**`System.in`** is used to read **input from the terminal window**.<br><br>
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("Hello, " + name);
-    }
-}
-```
+**Encapsulation** bundles **data** and **methods** into a single **class** and restricts direct access to the data using **access modifiers**.
