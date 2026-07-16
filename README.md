@@ -6,5 +6,5 @@ Java is a **platform-independent** programming language because its source code 
 ## JDK, JRE, and JVM
 
 <p align="center">
-  <img src="[image(61).png](https://postimg.cc/DJKtzs0R)" alt="JDK, JRE, and JVM Diagram" width="700">
+  <img src="[[image(61).png](https://postimg.cc/DJKtzs0R)](https://i.postimg.cc/zBL50FrD/jvm.jpg)" alt="JDK, JRE, and JVM Diagram" width="700">
 </p>
