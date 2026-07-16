@@ -4,4 +4,6 @@ Java is a **platform-independent** programming language because its source code 
 
 <p align="center">
   <img src="https://i.postimg.cc/zBL50FrD/jvm.jpg" alt="JDK, JRE, and JVM Diagram" width="700">
-</p>
+</p><br><br>
+
+**Wrapper classes** provide a way to use **primitive data types** as **objects**
