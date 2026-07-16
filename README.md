@@ -3,8 +3,6 @@ Java is a **platform-independent** programming language because its source code 
 **Stack memory** is the portion of memory that is assigned to every individual program and it is fixed. On the other hand, **Heap memory** is the portion that is not allocated to the Java program but it will be available for use when it is required, during the runtime of the program.
 
 
-## JDK, JRE, and JVM
-
 <p align="center">
   <img src="https://i.postimg.cc/zBL50FrD/jvm.jpg" alt="JDK, JRE, and JVM Diagram" width="700">
 </p>
