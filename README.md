@@ -12,3 +12,19 @@ Java is a **platform-independent** programming language because its source code 
 ```java
 System.out.println("Hello, World!");
 ```
+**`System.err`** is used to display **error messages** on the console.
+```java
+System.err.println("An error occurred!");
+```
+**`System.in`** is used to read **input from the terminal window**.
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println("Hello, " + name);
+    }
+}
+```
