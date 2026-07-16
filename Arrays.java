@@ -3,6 +3,7 @@ int [] marks = new int[5];
 int [] marks = {10,20,30,40,50};
 
 #### To print the array values
+  
 ```java
 for(int i=0;i<marks.length;i++) {
   System.out.println(marks[i]);
