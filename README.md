@@ -104,7 +104,7 @@ public class Main {
     public static void main(String[] args) {
         Main obj = new Main();                  // Create outer class object
         InnerClass ob = obj.new InnerClass();   // Create inner class object
-        ob.show();                              // Call the method
+        ob.show();
     }
 }
 ```
