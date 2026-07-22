@@ -43,7 +43,6 @@ public class Main {
 ```
 <br>
 
-
 # Calling a Method in Java
 
 A method can be called in two ways:
@@ -85,6 +84,27 @@ public class Main {
 
     void show(int a,int b) {
          System.out.println(a+b);
+    }
+}
+```
+<br>
+
+# Calling a Method from an Inner Class
+
+To call a method that belongs to a **inner class**, you must first create an object of the **outer class**, and then use that object to create an instance of the inner class.
+
+```java
+public class Main {
+    class InnerClass {
+        void show() {
+            System.out.println("Hello");
+        }
+    }
+
+    public static void main(String[] args) {
+        Main obj = new Main();                  // Create outer class object
+        InnerClass ob = obj.new InnerClass();   // Create inner class object
+        ob.show();                              // Call the method
     }
 }
 ```
