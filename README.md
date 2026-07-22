@@ -83,8 +83,8 @@ public class Main {
         obj.show(a,b);
     }
 
-    static void show(int a,int b) {
-          System.out.println(a+b);
+    void show(int a,int b) {
+         System.out.println(a+b);
     }
 }
 ```
