@@ -15,22 +15,29 @@ Java is a **platform-independent** programming language because its source code 
 
 A Java source file can contain **multiple classes**, but **only one class can be declared as `public`**. The name of the Java file **must match the name of the public class**.
 
-For example, if the file is named `Main.java`, then the public class must be `Main`.
-
 ```java
-// Helper class (not public)
 class NewMain {
     void show() {
         System.out.println("Hello");
     }
 }
 
-// Public class
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello");
     }
 }
 ```
+```java
+class NewMain {
+    void show() {
+        System.out.println("Hello");
+    }
+}
 
-> **Note:** If `Main` is the public class, the file name must be `Main.java`.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+```
