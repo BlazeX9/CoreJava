@@ -55,7 +55,7 @@ A method can be called in two ways:
 public class Main {
     public static void main(String[] args) {
         int a=5, b=5;
-        show(a,b);
+    ❌  show(a,b);
     }
 
     ❌ void show(int a,int b) {
