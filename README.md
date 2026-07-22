@@ -16,7 +16,7 @@ Java is a **platform-independent** programming language because its source code 
 A Java source file can contain **multiple classes**, but **only one class can be declared as `public`**. The name of the Java file **must match the name of the public class**.
 
 ```java
-class NewMain {
+public class NewMain {  ❌
     void show() {
         System.out.println("Hello");
     }
