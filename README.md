@@ -6,10 +6,8 @@ Java is a **platform-independent** programming language because its source code 
   <img src="https://i.postimg.cc/zBL50FrD/jvm.jpg" alt="JDK, JRE, and JVM Diagram" width="700">
 </p><br>
 
-**Wrapper classes** provide a way to use **primitive data types** as **objects**<br><br>
 
-**`System.out`** is used to output the data that we want to display on the  console.
+**`System.out`** is used to output the data that we want to display on the  console.<br>
 **`System.err`** is used to display **error messages** on the console.
 **`System.in`** is used to read **input from the terminal window**.<br><br>
 
-**Encapsulation** bundles **data** and **methods** into a single **class** and restricts direct access to the data using **access modifiers**.
