@@ -41,3 +41,28 @@ public class Main {
     }
 }
 ```
+
+
+# Calling a Method in Java
+
+A method can be called in two ways:
+
+- ✅ **Using an object** (for non-static methods)
+- ✅ **Using the `static` keyword** (without creating an object)
+
+In the example below, `show()` is declared as `static`, so it can be called directly from the `main()` method without creating an object.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int a = 5, b = 5;
+        show(a, b);
+    }
+
+    static void show(int a, int b) {
+        System.out.println(a + b);
+    }
+}
+```
+
+> **Note:** If `show()` were not `static`, you would need to create an object of the class before calling it.
