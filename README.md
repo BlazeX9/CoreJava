@@ -58,7 +58,7 @@ public class Main {
         show(a,b);
     }
 
-    ❌ void show(int a, int b) {
+    ❌ void show(int a,int b) {
           System.out.println(a+b);
     }
 }
@@ -70,7 +70,20 @@ public class Main {
         show(a,b);
     }
 
-    static void show(int a, int b) {
+    static void show(int a,int b) {
+          System.out.println(a+b);
+    }
+}
+```
+```java
+public class Main {
+    public static void main(String[] args) {
+        Main obj = new Main();
+        int a=5, b=5;
+        obj.show(a,b);
+    }
+
+    static void show(int a,int b) {
           System.out.println(a+b);
     }
 }
