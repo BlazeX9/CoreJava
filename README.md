@@ -8,6 +8,6 @@ Java is a **platform-independent** programming language because its source code 
 
 
 **`System.out`** is used to output the data that we want to display on the  console.<br>
-**`System.err`** is used to display **error messages** on the console.
+**`System.err`** is used to display **error messages** on the console.<br>
 **`System.in`** is used to read **input from the terminal window**.<br><br>
 
