@@ -17,8 +17,8 @@ A Java source file can contain **multiple classes**, but **only one class can be
 
 ```java
 ❌ public class NewMain {  
-    void show() {
-        System.out.println("Hello");
+      void show() {
+          System.out.println("Hello");
     }
 }
 
