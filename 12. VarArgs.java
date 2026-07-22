@@ -1,5 +1,4 @@
 //Varargs allows methods to accept any number of parameters
-
 public class codeVarArgs {
     static int sum(int ...arr) {
         int result = 0;
