@@ -29,7 +29,7 @@ public class Main {
 }
 ```
 ```java
-class NewMain {
+class NewMain {  ✔️
     void show() {
         System.out.println("Hello");
     }
