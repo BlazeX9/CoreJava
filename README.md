@@ -108,3 +108,16 @@ public class Main {
     }
 }
 ```
+```java
+public class Main {
+    class InnerClass {
+        static void show() {
+            System.out.println("Hello");
+        }
+    }
+
+    public static void main(String[] args) {
+        innerClass.show();
+    }
+}
+```
