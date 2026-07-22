@@ -13,6 +13,6 @@ for (int i = marks.length - 1; i >= 0; i--) {
 }
 
 // To print the array values using a for-each loop
-for (int element : marks) {
-    System.out.println(element);
+for (int value:marks) {
+    System.out.println(value);
 }
