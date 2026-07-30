@@ -13,4 +13,4 @@ public class staticMethod {
 		StaticClass.show();
 	}
 }
-//Only static variable can be used in a static method
+//Only static variables can be used in a static method
