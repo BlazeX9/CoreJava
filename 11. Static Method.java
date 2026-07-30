@@ -1,22 +1,21 @@
-//'static' keyword is used to call method without need to create an object of the class
-public class staticMetod {
-    static int sum(int x,int y) {
-        int res = x + y;
+//'static' keyword is used to call a method without need to create an object of the class
+public class myClass {
+    static int summation(int x,int y) {
+        int res = x+y;
         return res;
     }
-
-    int mul(int x,int y) {
-        int res = x * y;
+    int multiplication(int x,int y) {
+        int res = x*y;
         return res;
     }
     
     public static void main(String[] args) {
-        int a = 5, b = 3;
-        int res1 = sum(a, b);
-        System.out.println("Sum: "+res1);
+        int a=5, b=3;
+        int res1 = summation(a,b);
+        System.out.println("Summation: "+res1);
 
-        staticMetod obj = new staticMetod();
-        int res2 = obj.mul(a, b);
+        myClass obj = new myClass();
+        int res2 = obj.multiplication(a,b);
         System.out.println("Multiplication: "+res2);
     }
 }
