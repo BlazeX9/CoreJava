@@ -1,5 +1,5 @@
 //Recursion is a process in which a function calls itself
-public class codeRecursion {
+public class myClass {
     static int factorial(int n) {
         if(n==0 || n==1) {
             return 1;
