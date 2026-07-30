@@ -1,4 +1,4 @@
-//To access private variables Getters and Setters methods is used
+//To access private variables Getters and Setters method is used
 class Employee {
     private String name;
 
@@ -10,7 +10,7 @@ class Employee {
     }
 }
 
-public class privateClass {
+public class MyClass {
     public static void main(String[] args) {
         Employee classObj = new Employee();
         classObj.setName("Abhik");
