@@ -1,4 +1,4 @@
-public class MultiDimensionalArray {
+public class myClass {
     public static void main(String[] args) {
         int [][] flats = {
             {101,102,103},
