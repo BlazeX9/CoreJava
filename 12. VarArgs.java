@@ -1,5 +1,5 @@
 //Varargs allows methods to accept any number of parameters
-public class codeVarArgs {
+public class myClass {
     static int sum(int ...arr) {
         int result = 0;
         for(int a:arr) {
