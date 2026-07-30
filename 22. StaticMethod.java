@@ -6,7 +6,7 @@ class StaticClass {
 	}
 }
 
-public class staticMethod {
+public class StaticMethod {
     public static void main(String[] args) {
 		StaticClass.a = 10;
 		StaticClass.b = 15;
