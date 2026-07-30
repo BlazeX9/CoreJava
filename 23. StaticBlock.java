@@ -7,7 +7,7 @@ class SubClass {
 	}
 }
 
-public class staticBlock {
+public class StaticBlock {
     static {
 	 	System.out.println("Main class static block");
 	}
