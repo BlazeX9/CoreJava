@@ -1,3 +1,6 @@
+//Only static variable can be used in a static method
+//A static method can be called without need to create an object of the class
+
 class StaticClass {
 	static int a;
 	static int b;
@@ -13,4 +16,3 @@ public class StaticMethod {
 		StaticClass.show();
 	}
 }
-//Only static variables can be used in a static method
