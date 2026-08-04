@@ -1,8 +1,3 @@
-What is Java?
-  - Java is an object oriented programming language. Java complies source code into the bytecode(.class file) and then its interpreted into machine readable code.
-
-Is Java Platform Independent?
-  - Yes, Java is a Platform Independent language. This .class file is independent of the software or hardware but needs a JVM preinstalled in the operating system for execution. Although JVM is platform dependent the bytecode can be created on any System and can be executed in any other system which makes Java platform independent.
 
 JRE (Java Runtime Environment)
   - JRE is an installation package that creates an environment to run the Java program or application on any machine.  
